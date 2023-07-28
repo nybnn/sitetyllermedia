@@ -1,0 +1,88 @@
+@media (min-width: 319px) and (max-width: 768px){
+.carousel-indicators li {
+margin-bottom: 0px!important
+}
+#carouselthm{
+    margin-top: 56px;
+}
+.carousel-inner hr{
+    border-top: 5px solid #d40000!important;
+    border-radius: 108px;
+    width: 60px!important
+}
+.d-block{
+height: auto!important;
+}
+.container1,
+.container2{ 
+margin-top: 30px!important;
+margin-bottom: 0px!important;
+}
+.row{
+justify-content: center;
+}
+.card {
+width: fit-content;
+margin: 30px!important;
+border-radius: 20px!important;
+border: 0px solid transparent !important
+}
+.card-img-overlay{
+padding: 15px!important;
+padding-left: 37px!important;
+}
+.verticalLine{
+margin-top: 15px;
+}
+.verticalLine hr { 
+border-left: 13px solid #d40000;
+width: 0px;
+height: 80px;
+position: absolute;
+top: 10px;
+left: 20px;
+z-index: 2;
+}
+.verticalLine h5 { 
+margin-bottom: 5px;
+margin-top: 5px;
+font-family: Helvetica!important;
+font-weight: 700;
+font-size: 22px;
+}
+.verticalLine a {
+margin-bottom: 10px;
+margin-top: 5px;
+text-align: left;
+font-family: Helvetica!important;
+font-weight: 600;
+font-size: 16px;
+letter-spacing: -1px;
+color: inherit;
+opacity: 1;
+text-decoration: none;
+line-height: 25px;
+font-variant: all-small-caps;
+}
+.verticalLine p { 
+margin-bottom: 5px;
+margin-top: 25px;
+margin-left: 0px!important;
+font-family: Helvetica!important;
+font-weight: 500;
+font-size: 18px;
+}
+}
+@media (min-width: 769px) and (max-width: 1025px){
+
+.card {
+width: fit-content;
+margin: 10px 10px!important;
+border-radius: 20px!important;
+border: 0px solid transparent !important; 
+}
+.row{
+justify-content: center;
+}
+
+}
